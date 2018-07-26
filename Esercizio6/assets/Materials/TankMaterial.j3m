@@ -1,0 +1,10 @@
+Material Tank Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Textures/Tank/diffuse.jpg
+        SpecularMap : Flip Textures/Tank/specular.jpg
+        GlowMap : Flip Textures/Tank/glowmap.jpg
+        NormalMap : Flip Textures/Tank/normals.png
+     }
+    AdditionalRenderState {
+    }
+}

@@ -1,0 +1,13 @@
+Material Directional Fire : Common/MatDefs/Misc/Particle.j3md {
+     MaterialParameters {
+        Texture : Textures/Particles/directional_fire.jpg
+        GlowColor : 0.0 0.0 0.0 1.0
+        GlowMap : Textures/Particles/directional_fire.jpg
+     }
+    AdditionalRenderState {
+      Blend Additive
+      DepthWrite Off
+      DepthTest On
+      ColorWrite On
+    }
+}

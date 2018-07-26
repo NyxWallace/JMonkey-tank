@@ -1,0 +1,11 @@
+Material Smoke : Common/MatDefs/Misc/Particle.j3md {
+     MaterialParameters {
+        Texture : Textures/Particles/smoke.png
+     }
+    AdditionalRenderState {
+      Blend AlphaAdditive
+      DepthWrite Off
+      DepthTest On
+      ColorWrite On
+    }
+}

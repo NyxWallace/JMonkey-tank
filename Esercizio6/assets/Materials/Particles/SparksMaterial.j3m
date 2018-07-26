@@ -1,0 +1,13 @@
+Material Sparks : Common/MatDefs/Misc/Particle.j3md {
+     MaterialParameters {
+        Texture : Textures/Particles/spark.png
+        GlowMap : Textures/Particles/spark.png
+        GlowColor : 0.0 0.0 0.0 1.0
+     }
+    AdditionalRenderState {
+      Blend Additive
+      DepthTest On
+      ColorWrite On
+      DepthWrite Off
+    }
+}

@@ -1,0 +1,14 @@
+Material Radial Fire : Common/MatDefs/Misc/Particle.j3md {
+     MaterialParameters {
+        Texture : Textures/Particles/radial_fire.png
+        GlowColor : 0.0 0.0 0.0 1.0
+        GlowMap : Textures/Particles/radial_fire.png
+     }
+    AdditionalRenderState {
+      Blend Additive
+      DepthTest On
+      FaceCull Off
+      ColorWrite On
+      DepthWrite Off
+    }
+}

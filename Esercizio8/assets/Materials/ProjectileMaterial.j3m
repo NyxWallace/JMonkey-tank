@@ -1,0 +1,8 @@
+Material Projectile Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Textures/Projectile/diffuse.png
+        SpecularMap : Flip Textures/Projectile/specular.png
+     }
+    AdditionalRenderState {
+    }
+}

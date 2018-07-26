@@ -1,0 +1,8 @@
+considera AI ogni tot controlUpdate
+JME AI Pluging scaricare
+
+
+setHeading()
+setSpeed()
+
+

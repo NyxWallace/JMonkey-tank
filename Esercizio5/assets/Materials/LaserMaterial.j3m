@@ -1,0 +1,14 @@
+Material Laser : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        Specular : 0.0 0.0 0.0 1.0
+        Diffuse : 0.0 0.0 0.0 1.0
+        Ambient : 0.0 0.0 0.0 1.0
+        AlphaMap : Textures/Laser/alpha.png
+        GlowMap : Textures/Laser/glow.png
+        UseMaterialColors : true
+        GlowColor : 0.0 0.0 0.0 1.0
+     }
+    AdditionalRenderState {
+      Blend Alpha
+    }
+}

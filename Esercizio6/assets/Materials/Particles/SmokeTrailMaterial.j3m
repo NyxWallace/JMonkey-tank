@@ -1,0 +1,10 @@
+Material Smoke Trail : Common/MatDefs/Misc/Particle.j3md {
+     MaterialParameters {
+        Texture : Textures/Particles/smoketrail.png
+     }
+    AdditionalRenderState {
+      ColorWrite On
+      DepthTest On
+      Blend AlphaAdditive
+    }
+}
